@@ -1,0 +1,18 @@
+Algoritmo "SOMA FUNÇÃO"
+//
+Var
+   N1, N2, S:INTEIRO
+
+FUNCAO SOMA(X,Y:INTEIRO):INTEIRO
+INICIO
+   RETORNE X + Y
+FIMFUNCAO
+
+Inicio
+   ESCREVA("DIGITE UM NÚMERO:")
+   LEIA(N1)
+   ESCREVA("DIGITE UM NÚMERO:")
+   LEIA(N2)
+   S <- SOMA(N1, N2)
+   ESCREVAL("A SOMA ENTRE ", N1, " E ",  N2, " É IGUAL A:", S)
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "ESTÁ APTO A DIRIGIR"
+
+Var
+   ANO_NASCIMENTO, ANO_ATUAL, IDADE:INTEIRO
+Inicio
+   ESCREVAL("---------------------------- ")
+   ESCREVAL("DEPARTAMENTO DE TRÂNSITO")
+   ESCREVAL("---------------------------- ")
+   ESCREVA("ANO ATUAL (YYYY): ")
+   LEIA(ANO_ATUAL)
+   ESCREVA("ANO DE NASCIMENTO (YYYY): ")
+   LEIA(ANO_NASCIMENTO)
+   ESCREVAL("-----------STATUS-----------")
+   IDADE<-(ANO_ATUAL-ANO_NASCIMENTO)
+   SE (IDADE>18) ENTAO
+      ESCREVA("APTO A TIRAR CARTEIRA")
+   SENÃO
+        ESCREVA("INAPTO A TIRAR CARTEIRA")
+   FIMSE
+Fimalgoritmo
